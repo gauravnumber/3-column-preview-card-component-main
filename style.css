@@ -1,0 +1,56 @@
+body,
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: hsl(0, 0%, 95%);
+}
+
+main {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-end;
+  padding: 20% 10%;
+
+  /* text-align: center; */
+}
+
+section {
+  /* justify-content: center; */
+  /* flex: 1 100%; */
+  /* width: 80vw; */
+  height: 100vh;
+  /* padding: 100%; */
+  /* padding: 20px; */
+  /* margin: 10px; */
+}
+
+.section-sedans {
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 1rem ;
+  border-top-right-radius: 1rem ;
+}
+
+.section-suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.section-luxury{
+  background-color: hsl(179, 100%, 13%);
+  border-bottom-left-radius: 1rem ;
+  border-bottom-right-radius: 1rem ;
+}
+
+section > p {
+  /* font: 15px hsla(0, 0%, 100%, 0.75); */
+  font-weight: bold;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+section > header > h1 {
+  color: hsl(0, 0%, 95%);
+}
+
+section > a {
+  color: hsl(0, 0%, 95%);
+}
