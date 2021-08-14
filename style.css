@@ -6,18 +6,6 @@
   --luxury-color: hsl(179, 100%, 13%);
 }
 
-/* @font-face {
-  font-family: "Lexend Deca";
-  src: url("https://fonts.google.com/specimen/Lexend+Deca");
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: "Big Shoulders Display";
-  src: url("https://fonts.google.com/specimen/Big+Shoulders+Display");
-  font-weight: 700;
-} */
-
 body,
 html {
   box-sizing: border-box;
@@ -30,38 +18,22 @@ html {
 main {
   display: flex;
   flex-flow: column nowrap;
-  /* height: 100vh; */
-  /* align-content: space-between; */
-  /* justify-content: flex-end; */
-  /* justify-content: space-around; */
   padding: 20% 10%;
-
-  /* text-align: center; */
 }
 
 section {
-  /* justify-content: center; */
   flex: 1 100%;
-  /* width: 80vw; */
-  /* height: 50vh; */
-  /* padding: 100%; */
   padding: 20%;
   font-family: "Lexend Deca";
   display: flex;
   flex-flow: column nowrap;
-
-  /* margin: 10px; */
 }
 
 .section-sedans p, .section-suvs p, .section-luxury p {
   flex: 3;
 }
 .section-sedans a, .section-suvs a, .section-luxury a {
-  /* display: inline-block; */
-  /* flex: 1 0; */
   align-self: flex-start;
-  /* text-align: center;
-  vertical-align: center; */
 }
 
 .section-sedans {
@@ -81,8 +53,6 @@ section {
 }
 
 p {
-  /* font: 15px var(--secondary-color); */
-  /* font-weight: bold; */
   color: var(--secondary-color);
 }
 
@@ -92,7 +62,6 @@ h1 {
 }
 
 a {
-  /* color: var(--sedans-color); */
   display: inline-block;
   background-color: var(--primary-color);
   text-decoration: none;
@@ -137,59 +106,30 @@ a {
     align-content: center;
     padding: 10%;
     height: 100vh;
-    /* align-items: stretch; */
-    /* align-content: space-between; */
   }
 
   section {
-    /* flex: 0 30%; */
     width: 5vw;
     height: 80vh;
     padding: 4%;
-    /* height: unset; */
-    /* height: 70%; */
     display: flex;
     flex-flow: column nowrap;
-
-    /* display: flex;
-    flex-flow: column wrap; */
-    /* justify-content: flex-end; */
-    /* align-content: space-between; */
-    /* align-items: stretch; */
-
-    /* border-radius: 1rem; */
-    /* border-bottom-left-radius: 1rem; */
   }
 
   .section-sedans {
     border-radius: 0;
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
-    /* display: flex;
-    flex-flow: column nowrap; */
-    /* margin: 0;
-    padding: 0; */
-
-    /* align-content: flex-end; */
-    /* align-items: flex-end; */
-    /* justify-content: space-evenly; */
-    /* align-self: stretch; */
   }
-
-  /* .section-sedans header {
-    flex: 1;
-  } */
 
   .section-sedans p, .section-suvs p, .section-luxury p {
     flex: 5;
   }
+  
   .section-sedans a, .section-suvs a, .section-luxury a {
-    /* display: inline-block; */
-    /* flex: 1 0; */
     align-self: flex-start;
-    /* text-align: center;
-    vertical-align: center; */
   }
+  
   .section-luxury {
     border-radius: unset;
     border-top-right-radius: 1rem;
