@@ -30,6 +30,7 @@ html {
 main {
   display: flex;
   flex-flow: column nowrap;
+  /* height: 100vh; */
   /* align-content: space-between; */
   /* justify-content: flex-end; */
   /* justify-content: space-around; */
@@ -42,12 +43,25 @@ section {
   /* justify-content: center; */
   flex: 1 100%;
   /* width: 80vw; */
-  height: 100vh;
+  /* height: 50vh; */
   /* padding: 100%; */
   padding: 20%;
   font-family: "Lexend Deca";
+  display: flex;
+  flex-flow: column nowrap;
 
   /* margin: 10px; */
+}
+
+.section-sedans p, .section-suvs p, .section-luxury p {
+  flex: 3;
+}
+.section-sedans a, .section-suvs a, .section-luxury a {
+  /* display: inline-block; */
+  /* flex: 1 0; */
+  align-self: flex-start;
+  /* text-align: center;
+  vertical-align: center; */
 }
 
 .section-sedans {
@@ -130,7 +144,7 @@ a {
   section {
     /* flex: 0 30%; */
     width: 5vw;
-    height: 50vh;
+    height: 80vh;
     padding: 4%;
     /* height: unset; */
     /* height: 70%; */
