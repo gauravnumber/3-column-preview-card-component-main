@@ -12,7 +12,7 @@ html {
   margin: 0;
   padding: 0;
   background-color: var(--primary-color);
-  /* font-size: 15px; */
+  font-size: 15px;
 }
 
 main {
@@ -59,6 +59,9 @@ p {
 h1 {
   color: var(--primary-color);
   font-family: "Big Shoulders Display";
+  /* font-weight: 900; */
+  /* font: inherit; */
+  /* font-weight: bold; */
 }
 
 a {
@@ -110,7 +113,7 @@ a {
 
   section {
     width: 5vw;
-    height: 80vh;
+    height: 50vh;
     padding: 4%;
     display: flex;
     flex-flow: column nowrap;
