@@ -25,14 +25,19 @@ section {
   flex: 1 100%;
   padding: 20%;
   font-family: "Lexend Deca";
+  font-weight: 400;
   display: flex;
   flex-flow: column nowrap;
 }
 
-.section-sedans p, .section-suvs p, .section-luxury p {
+.section-sedans p,
+.section-suvs p,
+.section-luxury p {
   flex: 3;
 }
-.section-sedans a, .section-suvs a, .section-luxury a {
+.section-sedans a,
+.section-suvs a,
+.section-luxury a {
   align-self: flex-start;
 }
 
@@ -59,9 +64,7 @@ p {
 h1 {
   color: var(--primary-color);
   font-family: "Big Shoulders Display";
-  /* font-weight: 900; */
-  /* font: inherit; */
-  /* font-weight: bold; */
+  font-weight: 700;
 }
 
 a {
@@ -102,7 +105,7 @@ a {
   border: 1px solid var(--primary-color);
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1440px) {
   main {
     flex-flow: row nowrap;
     justify-content: center;
@@ -125,14 +128,18 @@ a {
     border-bottom-left-radius: 1rem;
   }
 
-  .section-sedans p, .section-suvs p, .section-luxury p {
+  .section-sedans p,
+  .section-suvs p,
+  .section-luxury p {
     flex: 5;
   }
-  
-  .section-sedans a, .section-suvs a, .section-luxury a {
+
+  .section-sedans a,
+  .section-suvs a,
+  .section-luxury a {
     align-self: flex-start;
   }
-  
+
   .section-luxury {
     border-radius: unset;
     border-top-right-radius: 1rem;
